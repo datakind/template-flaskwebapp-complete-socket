@@ -1,0 +1,17 @@
+[tool.black]
+extend-exclude = '''
+
+(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | app.py
+    | buck-out
+    | build
+    | dist
+  )
+'''
